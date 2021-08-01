@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "PoppinsBlack";
+  src: url("./fonts/Poppins-Black.ttf");
+}
+
+@font-face {
+  font-family: "PoppinsLight";
+  src: url("./fonts/Poppins-ExtraLightItalic.ttf");
+}
+
+@font-face {
+  font-family: "PoppinsSemiBold";
+  src: url("./fonts/Poppins-SemiBold.ttf");
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input:focus,
+button:focus {
+  outline: 0;
+}
+
+body {}
+
+h2 {
+  font-size: 3vh;
+  text-align: center;
+  font-family: "PoppinsBlack";
+  background-color: rgb(132, 0, 255);
+  color: white;
+}
+
+#chat-wrap {
+  width: 70%;
+  margin: 5vw auto;
+  border: 0.4vw solid rgb(132, 0, 255);
+  border-radius: 10px;
+}
+
+#chat-window {
+  background-color: rgb(238, 238, 238);
+  height: 55vh;
+  overflow-y: auto;
+}
+
+#output p {
+  font-size: 2vh;
+  padding: 1vw;
+  font-family: "PoppinsLight";
+}
+
+
+#output p:nth-child(even) {
+  background-color: white;
+}
+
+#feedback p {
+  font-size: 1.2vh;
+  padding: 1vw;
+  font-family: "PoppinsLight";
+}
+
+#output strong {
+  color: black;
+  font-family: "PoppinsSemiBold";
+}
+
+input {
+  font-family: "PoppinsSemiBold";
+  padding: 1vw;
+  border: 0;
+  border-top: 1px solid gray;
+  display: block;
+  width: 97%;
+  font-size: 2.3vh;
+}
+
+button {
+  font-family: "PoppinsSemiBold";
+  background-color: rgb(132, 0, 255);
+  color: white;
+  border: 0;
+  border-radius: 0 0 5px 5px;
+  width: 100%;
+  padding: 12px 0px;
+  font-size: 3vh;
+}
